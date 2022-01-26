@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    background-color: aqua;
+    
+    
+}
+
+
+
+.contenedor{
+    display: flex;
+   
+    
+    
+}
+
+
+.carrusel{
+    display: flex;
+   
+   
+}
+
+.icono img{
+    width: 100px;
+    height: 100px;
+
+}
