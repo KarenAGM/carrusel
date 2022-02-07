@@ -44,11 +44,32 @@
 }
 
 .item{
-    min-width: 20%;
-}
-
-.item img{
-    width: 100%;
-    height: 100%;
+    min-width: 16.5%;
    
 }
+
+.titulo,
+.icono,
+.subtitulo{
+      text-align: center;
+}
+
+.titulo p{
+    font-size: 18px;
+    color: rgb(61, 62, 61);
+    font-weight: bolder;    
+}
+
+.icono{
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+
+.subtitulo p{
+    padding-bottom: 5px;
+    color: rgb(61, 62, 61);
+}
+
+.subtitulo hr{
+    width:148px;
+   }
