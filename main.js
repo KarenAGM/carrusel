@@ -5,10 +5,10 @@ const flecha_derecha = document.getElementById('flecha_derecha');
 
 flecha_derecha.addEventListener('click',() => {
 
-    fila.scrollLeft += 245;
+    fila.scrollLeft += 220;
 });
 
 flecha_izquierda.addEventListener('click',() => {
 
-    fila.scrollLeft -= 245;
+    fila.scrollLeft -= 220;
 });
