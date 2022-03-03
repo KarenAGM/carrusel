@@ -1,33 +1,27 @@
 *{
-    margin: auto;
+    margin: 0px;
+    padding: 0px;
 }
 
 .contenedor_principal {
-    
+    width: 100%;
     display: flex;
     align-items: center;
+    
     position: relative;
-    background-color: #f7f7f7;
+    background-color: #F7F7F7;
 }
 
-.contenedor_principal .flecha_izquierda,
-.contenedor_principal .flecha_derecha{
-    border: none;
-    font-size: 70px; 
-    color: grey;
-    background: none;
 
-}
 
 
 .contenedor_principal .flecha_izquierda{
     left: 0;
-    padding-right: 20px;
 }
 
 .contenedor_principal .flecha_derecha{
     right: 0;
-    padding-left: 20px;
+   
 }
 
 /*Carrusel*/
@@ -37,14 +31,60 @@
     padding: 20px 0;
     overflow: hidden;
     scroll-behavior:smooth;
-}
+    align-items: center;
+    padding: auto;
+    overflow: hidden;
+   }
 
 .carrusel{
     display: flex;
+    animation-duration: 15s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-delay: 2s;
+    animation-timing-function: ease-in-out;
+    }
+.carrusel:hover {
+  animation-play-state: paused;
+}
+@keyframes slidein {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-151px * 8));
+  }
 }
 
+
 .item{
-    min-width: 16.5%;
+   min-width: 12.3%;
+   border: 1px solid gray ;
+   border-radius: 10px;
+}
+
+.item:hover{
+    transform: scale(1.2);
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+.item img{
+    /*
+    width: 135px;
+    height: 104px;*/
+   
+}
+.icono img{
+    width: 100%;
+}
+
+
+.flecha_derecha img,
+.flecha_izquierda img{
+    width: 70px;
    
 }
 
@@ -52,24 +92,39 @@
 .icono,
 .subtitulo{
       text-align: center;
+      align-items: center;
+    
 }
 
 .titulo p{
-    font-size: 18px;
-    color: rgb(61, 62, 61);
+    font-family: 'Asap Condensed', sans-serif;
+    font-size: 16.5px;
+    color: #5D5D5D;
     font-weight: bolder;    
 }
 
 .icono{
+    align-items: center;
+  
     margin-top: 3px;
     margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
 }
 
 .subtitulo p{
+    font-family: 'Roboto';
+    font-size: 14px;
     padding-bottom: 5px;
-    color: rgb(61, 62, 61);
+    color: #5D5D5D;
+    text-decoration:underline;
 }
 
-.subtitulo hr{
-    width:148px;
-   }
+#bienes{
+    margin-bottom: 2px;
+}
+
+.productos{
+    width: 135px;
+}
