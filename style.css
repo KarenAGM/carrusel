@@ -71,14 +71,14 @@
 }
 
 
+
 .item img{
-    /*
-    width: 135px;
-    height: 104px;*/
-   
+ 
 }
 .icono img{
-    width: 100%;
+    width: 80px;
+    height: 60px;
+
 }
 
 
@@ -88,29 +88,35 @@
    
 }
 
+
+
+
+/*
+.contenedor-titulo{
+    border: 1px solid green;
+    height: 36px;
+}
+*/
+
 .titulo,
 .icono,
 .subtitulo{
       text-align: center;
-      align-items: center;
-    
+      align-items: center; 
 }
 
 .titulo p{
     font-family: 'Asap Condensed', sans-serif;
     font-size: 16.5px;
     color: #5D5D5D;
-    font-weight: bolder;    
+    font-weight: bolder;   
+    margin-top: 5px; 
+    margin-bottom: 5px;
 }
 
 .icono{
     align-items: center;
-  
-    margin-top: 3px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    
+   
 }
 
 .subtitulo p{
@@ -118,11 +124,14 @@
     font-size: 14px;
     padding-bottom: 5px;
     color: #5D5D5D;
-    text-decoration:underline;
+    
 }
 
-#bienes{
-    margin-bottom: 2px;
+
+.bienes img{
+    width: 70px;
+    height: 42px;
+   
 }
 
 .productos{
