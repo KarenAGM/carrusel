@@ -127,13 +127,25 @@
     
 }
 
-
+.materiales p{
+    font-size: 14px;
+}
+/*
 .bienes img{
     width: 70px;
     height: 42px;
    
 }
 
+
 .productos{
     width: 135px;
-}
+}*/
+
+
+
+  @media screen and (max-width: 1100px) {
+    .item {
+      min-width: 150px;   
+    }
+  }
