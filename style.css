@@ -44,7 +44,8 @@
     animation-direction: normal;
     animation-delay: 2s;
     animation-timing-function: ease-in-out;
-    }
+  
+}
 .carrusel:hover {
   animation-play-state: paused;
 }
@@ -53,28 +54,29 @@
     transform: translateX(0);
   }
   100% {
-    transform: translateX(calc(-151px * 8));
-  }
+    transform: translateX(calc(-152px * 8));
+    
+    }
 }
 
 
 .item{
    min-width: 12.3%;
+   
    border: 1px solid gray ;
    border-radius: 10px;
 }
 
 .item:hover{
     transform: scale(1.1);
-    margin-left: 15px;
-    margin-right: 15px;
+    
+    margin-left: 8px;
+    margin-right: 8px;
+    
 }
 
 
 
-.item img{
- 
-}
 .icono img{
     width: 80px;
     height: 60px;
@@ -128,7 +130,7 @@
 }
 
 .materiales p{
-    font-size: 14px;
+    font-size: 13px;
 }
 /*
 .bienes img{
@@ -144,8 +146,19 @@
 
 
 
-  @media screen and (max-width: 1100px) {
+@media screen and (max-width: 1100px) { 
     .item {
       min-width: 150px;   
+      
     }
   }
+
+  
+@media screen and (max-width:1680px) {
+    .item {
+      min-width: 150px;   
+      max-height: 125px;
+    }
+    
+}
+
