@@ -193,6 +193,8 @@ p{
 
 
 /*Prueba para Surface Pro7 medidas 912x1386*/
+
+/*Segunda prueba */
 @media screen and (min-width: 500px) and (max-width: 920px){
   .item {
     max-width: 170px;   
