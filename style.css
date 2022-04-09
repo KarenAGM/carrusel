@@ -46,6 +46,7 @@
     animation-timing-function: ease-in-out;
   
 }
+
 .carrusel:hover {
   animation-play-state: paused;
 }
@@ -89,7 +90,7 @@ p{
 
 .item{
   
-   min-width: 12.3%;
+   min-width: 12.5%;
  /*  min-width: 50%;*/
    border: 1px solid #54595f;
    margin-right: 1vh;
@@ -176,7 +177,7 @@ p{
 
 @media screen and (max-width: 1100px) { 
     .item {
-      min-width: 140px;   
+      min-width: 12.5%;  
       
     }
   }
@@ -192,35 +193,39 @@ p{
 
 
 /*Prueba para Surface Pro7 medidas 912x1386*/
-@media screen and (max-width:920px) {
+@media screen and (min-width: 500px) and (max-width: 920px){
+  .item {
+    max-width: 170px;   
+  }
+
   @keyframes slidein {
     0% {
       transform: translateX(0);
     }
     12.5%{
-        transform: translateX(calc(-170px*1));
+        transform: translateX(calc(-150px*1));
     }
     25%{
-        transform: translateX(calc(-170px*2));
+        transform: translateX(calc(-150px*2));
     }
     37.5%{
-      transform: translateX(calc(-170px*3));
+      transform: translateX(calc(-158px*3));
     }
     49%{
-      transform: translateX(calc(-170px*4));
+      transform: translateX(calc(-158px*4));
     }
     61.5%{
-      transform: translateX(calc(-170px*5));
+      transform: translateX(calc(-158px*5));
     }
     74%{
-      transform: translateX(calc(-170px*6));
+      transform: translateX(calc(-158px*6));
     }
     86.5%{
-      transform: translateX(calc(-170px*7));
+      transform: translateX(calc(-158px*7));
     }
     
     100% {
-      transform: translateX(calc(-170px * 8));
+      transform: translateX(calc(-158px * 8));
       
       }
   }
