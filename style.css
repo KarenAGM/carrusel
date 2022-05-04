@@ -94,6 +94,7 @@ p{
 .item{
  
   min-width: 150px;
+  max-height: 110px;
   /*
    min-width: 12.5%;
    min-width: 50%;*/
@@ -113,8 +114,8 @@ p{
 
 
 .icono img{
-    width: 70px;
-    height: 50px;
+    width: 60px;
+    height: 40px;
 
 }
 
@@ -148,7 +149,7 @@ p{
     font-size: 16.5px;
     color: #ff333d;
     font-weight: bolder;   
-    margin-top: 2vh; 
+    margin-top: 10px; 
     margin-bottom: 5px;
 }
 
@@ -160,7 +161,7 @@ p{
 .subtitulo p{
     font-family: 'Asap Condensed', sans-serif;
     font-size: 15px;
-    padding-bottom: 2vh;
+    margin-bottom: 7px;
     color: #54595f;
     
 }
@@ -208,11 +209,11 @@ p{
         transform: translateX(calc((-161px)*6));
       }
       86.5%{
-        transform: translateX(calc((-162px)*7));
+        transform: translateX(calc((-161px)*7));
       }
       
       100% {
-        transform: translateX(calc((-162px) * 8));
+        transform: translateX(calc((-161px) * 8));
         
         }
     }
@@ -222,6 +223,7 @@ p{
   @media screen and (min-width: 1201px) { 
     .item {
       min-width: 160px;  
+      
     }
 
     @keyframes slidein {
@@ -244,14 +246,14 @@ p{
         transform: translateX(calc((-171px)*5));
       }
       74%{
-        transform: translateX(calc((-172px)*6));
+        transform: translateX(calc((-171px)*6));
       }
       86.5%{
-        transform: translateX(calc((-172px)*7));
+        transform: translateX(calc((-171px)*7));
       }
       
       100% {
-        transform: translateX(calc((-172px) * 8));
+        transform: translateX(calc((-171px) * 8));
         
         }
     }
